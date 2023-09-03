@@ -1,11 +1,7 @@
 import { UserButton } from "@clerk/nextjs"
 
 const RootPage = () => {
-  return (
-    <div>
-      <UserButton />
-    </div>
-  )
+  return <div>RootPage</div>
 }
 
 export default RootPage

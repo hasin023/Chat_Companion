@@ -33,7 +33,7 @@ const Navbar = () => {
       </div>
 
       <div className='flex items-center gap-x-3'>
-        <Button variant='premium' size='sm'>
+        <Button variant='premium' size='sm' className='transition-all'>
           Upgrade <Sparkles className='h-4 w-4 fill-white text-white ml-2' />
         </Button>
         <ModeToggle />

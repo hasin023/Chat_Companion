@@ -1,5 +1,11 @@
+import { UserButton } from "@clerk/nextjs"
+
 const RootPage = () => {
-  return <div className='text-red-600 text-4xl'>Goodbye RootPage</div>
+  return (
+    <div>
+      <UserButton />
+    </div>
+  )
 }
 
 export default RootPage
